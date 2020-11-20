@@ -1,0 +1,43 @@
+#welcome-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left {
+    height: 100vh;
+    width: 50%;
+    background-image: url(../images/logo.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right {
+    height: 100vh;
+    width: 50%;
+    background-color: burlywood;
+    display: flex;
+    flex-flow: column;
+}
+.title {
+    align-self: center;
+    color: white;
+    font-size: 30px;
+}
+#start-btn {
+    height: 60px;
+    width: 200px;
+    align-self: center;
+}
+
+#sound-btn {
+    width: 60px;
+    align-self: flex-end;
+    background-image: url(../images/soundOn.png);
+    background-size: contain;
+    height: 60px;
+}
+.upper {
+    height: 300px;
+}
+.lower {
+    height: 300px;
+}

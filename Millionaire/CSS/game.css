@@ -1,0 +1,95 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+.btn {
+    border: none;
+    color: rgba(255, 255, 255, 0.918);
+    padding: 0 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: table;
+    width: 340px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 40px;
+    overflow: hidden;
+    font-family: Arial,Verdana,"Helvetica CY",sans-serif;
+    margin: 0 auto;
+    background-image: url(../images/standard\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hover:hover{
+    background-image: url(../images/yellow.png)
+}
+.correct {
+    background-image: url(../images/green.png);
+    background-repeat: no-repeat;
+}
+.prize {
+    border: none;
+    color: rgba(255, 255, 255, 0.918);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: table;
+    width: 340px;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    font-family: Arial,Verdana,"Helvetica CY",sans-serif;
+    margin: 0px 1000px;
+    background-image: url(../images/standard\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.current{
+    background-image: url(../images/green.png)
+}
+#next-btn {
+    border: none;
+    color: rgba(255, 255, 255, 0.918);
+    padding: 0 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 340px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 40px;
+    overflow: hidden;
+    font-family: Arial,Verdana,"Helvetica CY",sans-serif;
+    margin: 0 auto;
+    background-image: url(../images/standard\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#next-btn:hover{
+    background-image: url(../images/yellow.png)
+}
+#question {
+    border: none;
+    padding: 0 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    font-family: Arial,Verdana,"Helvetica CY",sans-serif;
+    margin: 0 auto;
+    background-image: url(../images/standard\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.918)
+}
+#under{
+    width: 100vh;
+    height: 40px;
+}
